@@ -10,12 +10,12 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar bg-body-tertiary ">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-xxl bg-body-tertiary" >
+        <div class="container-fluid ">
           <a class="navbar-brand"><i class="fa-brands fa-instagram"></i><strong>Instagram</strong></a>
-          <form class="d-flex me-2" role="search">
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
-            <!--modal-->
+        <button type="button" class="btn btn-success me-5 " data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
+        
+        <!--modal-->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
@@ -23,7 +23,7 @@
                       <h1 class="modal-title fs-5 " id="exampleModalLabel">Create a new post</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body" >
                         <p><strong>caption:</strong></p>
                         <div class="form-floating">
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea">Add the caption of your post here</textarea>
@@ -31,7 +31,7 @@
                           </div>
                       <p><button type="button" class="btn"><i class="fa-solid fa-camera"></i></button><button type="button" class="btn"><i class="fa-solid fa-location-dot"></i></button></p>
                      </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer" >
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                       <button type="button" class="btn btn-success">Publish</button>
                     </div>
@@ -39,7 +39,7 @@
                 </div>
               </div>
               <!--dropdown-->
-<div class="btn-group ">
+<div class="btn-group " >
     <button type="button" class="btn btn-secondary"><i class="fa-solid fa-gears"></i></button>
     <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
       <span class="visually-hidden">Toggle Dropdown</span>
@@ -56,7 +56,7 @@
         </div>
       </nav>
     <!-- nav-tab-->
-    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills mt-5 justify-content-center" id="pills-tab" role="tablist" >
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
         </li>
@@ -66,10 +66,10 @@
         </li>
         
       </ul>
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content" id="pills-tabContent" >
         <!--fotos en regilla-->
         <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> 
-          <div class="container text-center">
+          <div class="container text-center mb-4">
             <div class="row align-items-start">
               <div class="col">
                 <img src="https://images.pexels.com/photos/1302436/pexels-photo-1302436.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-thumbnail" alt="luna">
@@ -83,8 +83,8 @@
             </div>
           </div>
 
-          <div class="container text-center">
-            <div class="row align-items-center">
+          <div class="container text-center mb-4" >
+            <div class="row align-items-center" >
               <div class="col">
                 <img src="https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-thumbnail" alt="carretera en el decierto">
               </div>
@@ -97,15 +97,15 @@
             </div>
           </div>
 
-          <div class="container text-center">
-            <div class="row align-items-end">
-              <div class="col">
+          <div class="container text-center mb-4" >
+            <div class="row align-items-end" >
+              <div class="col" >
                 <img src="https://images.pexels.com/photos/7260645/pexels-photo-7260645.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-thumbnail" alt="...">
               </div>
-              <div class="col">
+              <div class="col" >
                 <img src="https://images.pexels.com/photos/7319307/pexels-photo-7319307.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-thumbnail" alt="...">
               </div>
-              <div class="col">
+              <div class="col" >
                 <img src="https://images.pexels.com/photos/2604929/pexels-photo-2604929.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-thumbnail" alt="...">
               </div>
             </div>
@@ -113,20 +113,20 @@
         </div>
         
         <!-- fotos en columna-->
-        <div class="tab-pane fade "  id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="tab-pane fade "  id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0" >
 <!-- primerafoto-->
  
-<div class="container text-center">
-  <div class="row justify-content-center">
+<div class="container text-center " >
+  <div class="row justify-content-center" >
     <div class="col-12">
-      <div class="container text-start">
-        <div class="row justify-content-center">
+      <div class="container text-start mb-4">
+        <div class="row justify-content-center" >
           <div class="col-6">                                                                                   
-        <div class="card " style="width: 40rem;">
-          <h2><strong>Carretera en otoño.</strong></h2>
+        <div class="card " style="width: 40rem;" >
+          <h2 style="margin: 5px;"><strong>Carretera en otoño.</strong></h2>
           <img src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="carretera en otoño">
           <div class="card-body">
-            <p class="card-text"><small class="class=text-body-secondary""><strong>123412 Likes</strong></small> </p>
+            <p class="card-text"><small class="class=text-body-secondary""><strong><button type="button" class="btn"><i class="fa-regular fa-heart"></i></button>  123412 Likes</strong></small> </p>
             <p class="card-text">Una toma perfecta de la belleza del otoño mientras te mueves por las montañas de cataluña.</p>
           </div>
         </div>
@@ -137,14 +137,14 @@
 <div class="container text-center">
   <div class="row justify-content-center">
     <div class="col-12">
-      <div class="container text-start">
+      <div class="container text-start mb-4">
         <div class="row justify-content-center">
           <div class="col-6">                                                                                   
         <div class="card " style="width: 40rem;">
-          <h2><strong>Mar Caribe.</strong></h2>
+          <h2 style="margin: 5px;"><strong>Mar Caribe.</strong></h2>
           <img src="https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="playa del caribe">
           <div class="card-body">
-            <p class="card-text"><small class="class=text-body-secondary""><strong>6.234 Likes</strong></small> </p>
+            <p class="card-text"><small class="class=text-body-secondary""><strong><button type="button" class="btn"><i class="fa-regular fa-heart"></i></button>  6.234 Likes</strong></small> </p>
             <p class="card-text">Foto aerea del cabo de "punta brava", este cabo se encuentra en el parque nacional Morrocoy en Venezuela.</p>
           </div>
         </div>
@@ -155,14 +155,14 @@
 <div class="container text-center">
   <div class="row justify-content-center">
     <div class="col-12">
-      <div class="container text-start">
+      <div class="container text-start mb-4">
         <div class="row justify-content-center">
           <div class="col-6">                                                                                   
         <div class="card " style="width: 40rem;">
-          <h2><strong> Pente de San Francisco.</strong></h2>
-          <img src="https://images.pexels.com/photos/1591382/pexels-photo-1591382.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="puente de san francisco">
+          <h2 style="margin: 5px;"><strong> Puente de San Francisco.</strong></h2>
+          <img src="https://images.pexels.com/photos/1591382/pexels-photo-1591382.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt=" puente de san francisco">
           <div class="card-body">
-            <p class="card-text"><small class="class=text-body-secondary""><strong>1.234.123 Likes</strong></small> </p>
+            <p class="card-text"><small class="class=text-body-secondary""><strong><button type="button" class="btn"><i class="fa-regular fa-heart"></i></button>  1.234.123 Likes</strong></small> </p>
             <p class="card-text">El puente de San Francisco es famoso mundialmente por su color rojo y por se un puente sostenido por cables.</p>
           </div>
         </div>
@@ -184,4 +184,4 @@
       <p style="text-align: center;"><small><strong>creado por Jhonny Timaure</strong></small></p>
     </footer>
 </body>
-</html>
+</html> 
